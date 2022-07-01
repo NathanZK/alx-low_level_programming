@@ -17,6 +17,7 @@ int main(void)
 	{
 		printf("%d", i);
 	}
+	putchar(' ');
 	return (0);
 }
 
