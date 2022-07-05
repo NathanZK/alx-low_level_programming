@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "main.h"
+
 
 /**
-* _natural - sum of multiples of 3 and 5
+* main - computes sum of multiples of 3 and 5
 *
+* Return: Always 0
 */
-void _natural(void)
+int main(void)
 {
 	int sum = 0;
 	int i;
@@ -22,10 +23,3 @@ void _natural(void)
 
 	printf("%d\n", sum);
 }
-
-
-
-
-
-
-
