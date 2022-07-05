@@ -10,7 +10,7 @@ int main(void)
 
 	long int fib[50];
 	int i;
-	int evenS = 0;
+	long int evenS = 0;
 
 	fib[0] = 1;
 	fib[1] = 2;
