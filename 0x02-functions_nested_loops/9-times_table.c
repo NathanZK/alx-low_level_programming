@@ -15,21 +15,23 @@ void times_table(void)
 		for (ver = 0; ver <= 9; ver++)
 		{
 			mul = hor * ver;
-
-			if (mul > 9)
+			if (ver == 0)
+				_putchar(mul + '0');
+			if (ver != 0 && mul < 10)
 			{
-				_putchar (mul / 10 + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(mul + '0');
 			}
-
-			_putchar (mul % 10 + '0');
-
-			if (mul != 81)
+			else if (mul >= 10)
 			{
-				_putchar (',');
-				_putchar (' ');
+				_putchar(',');
+				_puchar(' ');
+				_putchar(mul / 10 + '0');
+				_putchar(mul % 10 + '0');
 			}
 		}
 		_putchar('\n');
 	}
-
 }
