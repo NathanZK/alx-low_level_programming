@@ -27,6 +27,6 @@ int main(void)
 		else
 			printf("%ld", fib[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 return (0);
 }
