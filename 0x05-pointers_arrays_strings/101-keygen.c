@@ -7,10 +7,11 @@ int main() {
 
 int i;
 char alphabet[] = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+char pass[15];
 
 srand(time(0));
 
-char pass[15];
+
 for (i = 0; i < 15; i++)
 {
 pass[i] = alphabet[rand() % strlen(alphabet)];
