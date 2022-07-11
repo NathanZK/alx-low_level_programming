@@ -15,6 +15,7 @@ int main(void)
 	char pass[15];
 
 	srand(time(0));
+	printf("Tada! Congrats");
 	for (i = 0; i < 15; i++)
 	{
 		pass[i] = alphabet[rand() % strlen(alphabet)];
