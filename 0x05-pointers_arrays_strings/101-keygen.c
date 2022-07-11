@@ -12,11 +12,10 @@ int main(void)
 
 	int i;
 	char alphabet[] = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
-	char pass[15];
+	char pass[10];
 
 	srand(time(0));
-	printf("Tada! Congrats");
-	for (i = 0; i < 15; i++)
+	for (i = 0; i < 10; i++)
 	{
 		pass[i] = alphabet[rand() % strlen(alphabet)];
 		printf("%c", pass[i]);
