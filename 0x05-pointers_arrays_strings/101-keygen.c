@@ -14,7 +14,7 @@ int main(void)
 	char alphabet[] = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
 	char pass[15];
 
-	srand(time);
+	srand(time(0));
 	for (i = 0; i < 15; i++)
 	{
 		pass[i] = alphabet[rand() % strlen(alphabet)];
