@@ -5,7 +5,7 @@
 
 int main() {
 
-char a[10],c[10],d;
+char a[10],c[10];
     int i,j,k=0;
     printf("#Keygen by b44nz0r\n\n");
 
