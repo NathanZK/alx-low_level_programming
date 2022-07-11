@@ -34,5 +34,7 @@ char a[10],c[10];
     printf("\nHit Enter to Exit\n");
     getchar();
     getchar();
+
+	return(0);
 }
 
