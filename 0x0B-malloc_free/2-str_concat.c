@@ -18,9 +18,9 @@ char *str_concat(char *s1, char *s2)
 	while (s2[j] != '\0')
 		j++;
 	if (s1 == NULL)
-		i = 0;
+		s1 = "";
 	if (s2 == NULL)
-		j = 0;
+		s2 = "";	
 	stdout = (char *)malloc((i + j + 1) * sizeof(char));
 	if (stdout == NULL)
 		return (NULL);
