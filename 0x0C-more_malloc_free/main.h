@@ -1,5 +1,6 @@
-#ifndef MAIH_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -13,6 +14,4 @@ void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
-
-
-#endif /* MAIH_H */
+#endif
